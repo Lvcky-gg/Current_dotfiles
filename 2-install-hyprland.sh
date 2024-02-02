@@ -55,6 +55,7 @@ packagesPacman=(
     "swayidle"
     "swappy"
     "cliphist"
+    
 );
 
 packagesYay=(

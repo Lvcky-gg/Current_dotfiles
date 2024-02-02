@@ -107,6 +107,7 @@ packagesPacman=(
     "xautolock" 
     "blueman"
     "nautilus"
+    "zsh"
 );
 
 packagesYay=(
@@ -138,9 +139,10 @@ clear
 # Install .bashrc
 # ------------------------------------------------------
 echo ""
-echo "-> Install .bashrc"
+echo "-> Install .bashrc and .zshrc"
 
 _installSymLink .bashrc ~/.bashrc ~/dotfiles/.bashrc ~/.bashrc
+_installSymLink .zshrc ~/.zshrc ~/dotfiles/.zshrc ~/.zshrc
 
 # ------------------------------------------------------
 # Install custom issue (login prompt)
